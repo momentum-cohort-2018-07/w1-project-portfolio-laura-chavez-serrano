@@ -1,0 +1,123 @@
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #ed9763;
+  }
+  .header {
+    background: linear-gradient(#6666ff,grey);
+    color: white;
+  border-bottom: 3px;
+  padding-left: 600px;
+    padding-right: 300px;
+    margin-right:300px;
+    margin-left:40px;
+    font-family:dosis,"HelveticaNeue-CondensedBold","trebuchet ms",sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+  }
+
+.menu {
+        margin: 0;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+.menu a{
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.logos{
+    margin:40px 30px 10px 30px;
+}
+.lauraoffice {
+    max-width: 15%;
+    margin-top: 40px;
+    margin-left:100px;
+    margin-bottom: 40px;
+}
+.logo2{
+    max-width: 8%;
+    margin-top: 40px;
+    margin-left:100px;
+    margin-bottom: 40px;
+}
+.description h2{
+    color: rgb(34, 32, 32);
+    padding-left: 40px;
+    padding-right: 250px;
+    margin-right:100px;
+    overflow: auto;
+}
+.description {
+    color: rgb(34, 32, 32);
+    padding-left: 40px;
+    padding-right: 10px;
+    margin-right:100px;
+    overflow: auto;
+    font-size: 1.25em;
+}
+.subtitle {
+    padding-left:300px;
+    margin-top: 20px;
+    padding-left: 40px;
+}
+
+.footer a{
+    margin-top:80px;
+    margin-left:40px;
+    padding-left:40px;
+}
+.projectimg {
+    max-width: 20%;
+    margin-top:10px;
+    float: right;
+    padding:10px;
+    margin-right: 180px;
+}
+
+.description p{
+    padding-left: 40px;
+    padding-right: 100px;
+    margin-right:100px;
+    overflow: auto;
+}
+.title h3{
+    padding-left: 40px;
+    margin-top:80px;
+}
+.project{
+  margin-top:100px;   
+}
+.project_link{
+    margin-right:200px;
+    padding-left: 40px;
+}
+.project_link a{
+    margin: 10px 20px 20px 20px; 
+    padding-right: 40px;
+    padding-left: 40px;
+  float: left;
+}
+.textheader {
+    padding-left: 80px;
+    margin-right:200px;
+    margin-top:50px;
+}
+.textbody{
+    list-style: circle;
+    padding-left: 80px;
+    padding-right: 300px;
+    margin-right:200px;
+    margin-left:40px;
+    overflow: auto;
+    background-color:#ed8444;
+}
+.logo{
+    max-width: 2%;
+    margin: 30px 0px 10px 0px;
+    float: left;
+}
+
+
