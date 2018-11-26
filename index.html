@@ -2,51 +2,121 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Home</title>
+    <meta name="viewport" content="width=devise-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Laura Chavez Code Developer Portfolio</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald:400,700" rel="stylesheet">
 
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="blog/css/bootstrap.min.css">
+    <link rel="stylesheet" href="blog/css/estilo.css">
    
-    <header>
-        <dev class="principal">
-            <h1 class="header">
-              Laura Chavez Code Developer
-            </h1>   
-          </dev>
-    </header>
   </head>
   <body>
-      
-        <nav class = "menu">
-          <h2>
-                <a href= "index.html"> Home</a> 
-                <a href="projects.html">Projects</a>
-                <a href="resume.html">Resume</a>
-           </h2>
-        </nav>  
+      <header>
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="https://github.com/laura-chavez-serrano">GitHub <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://www.linkedin.com/in/laura-chavez-serrano/">Linkedin</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Details
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      
+                      <a class="dropdown-item" href="resume.pdf">Resume</a>
+                      <a class="dropdown-item" href="projects.html">Other Projects</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+
+        <div class="container">
+            <div class="row">
+              <div class="color1 col">
+                <h1>Laura Chávez Serrano </h1>Back-end Developer 
+              </div>
+            </div>
+          </div>
+        </header> 
+
+      <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+                <img class= "lauraoffice" src = "Laura_office.jpg" alt= "laura">
+            </div>
+            <div class="col-md-7">
+                <h3> "Hello, Hola:" </h3>
+                <p>I’m bilingual Back-end engineering with experience in Information Technology Manager focused on Delivery and Improving Services to business functions mainly in the areas of Sales, Marketing, Finance, Distribution and Process Optimization.</p>
+                  <p>I’m also ITIL certified and Six Sigma green belt certified. My Strengths include Service Improvement, 
+                    delivering large and complex projects, Applying IT best practices in a pragmatic way and developing global teams. I enjoy the changes and solving problems.   </p>
+            </div>
+          </div>
+          
+              <div class="color2 row">
+                <p>-</p>
+                </div>
+          <div class="row">
+              <div class="col"> 
+                <!-- <p> Traction Application:</p> -->
+              <p>  Bilingual Application produced to help in the Opio crisis in NC. 
+              <!-- Main functions, electronic data capture and tracking system 
+              designed to increase accessibility to life-saving harm-reduction 
+              measures.  -->
+             The app is using Rubi on Rails and Java-Script. The app 
+               included the use of QR, API and customize Devise gem. </p>
+              </div>
+              <div class="col">
+                  <p>Hash-rocket Application :
+                      Rails application that works like Reddit, allowing users to post news links, 
+                      vote for them, and comment on them.Developed in team during Rails training</p>
+    
+              </div>
+              <div class="col">
+               <p>
+                  Tecsupport Application:
+                  Functionalities similiar to Stack Overflow in format, developed with front end in Rubi on Rails using bootstrap, Kaminari, email .
+               </p> 
+              </div>
+              <div class="w-100"></div>
+              <div class="col">
+                  <a href="https://harm-reduction-tracker.herokuapp.com/en" target="_blank"><img alt="harm.png" src="harm.png" width=300 height=290  /></a>
+              </div>
+              <div class="col">
+                  <a href="https://hash-rocket.herokuapp.com/" target="_blank"><img alt="Hash-rocket.png" src="hash-rocket.png" width=300 height=290  /></a>
+              </div>
+              <div class="col">
+                  <a href="https://github.com/laura-chavez-serrano" target="_blank"><img alt="Tecsupport.png" src="Tecsupport.png" width=300 height=290  /></a>
+              </div>
+            </div>
+        </div>
+       
       
          
-          <div class="logos">
-              <img class= "lauraoffice" src = "Laura_office.jpg" alt= "laura">
-          <img class= "logo2" src = "itil-logo.png" alt= "itil">
-          <img class= "logo2" src = "sixsigma.JPG" alt= "sixsigma">
-          <img class= "logo2" src = 'html-css.jpg' alt= "htmlcss">
-        </div>
           
-          <div class="description">
-            <h2> "Hello, Hola:" </h2>
-            <p>I’m code developer with experience in Information Technology Manager focused on Delivery and Improving Services to business functions mainly in the areas of Sales, Marketing, Finance, Distribution and Process Optimization.  I’m also ITIL Certified and six sigma green belt certified. My Strengths include Service Improvement, 
-              delivering large and complex projects, Applying IT best practices in a pragmatic way and developing global teams. I enjoy the changes and solving problems.   <p>
-        </div>
+          
+
+        <footer> 
+            <div class= "footer">
+               <!-- <a href="https://www.linkedin.com/in/laura-chavez-serrano/" target="_blank"><img alt="follow me in Linkedin" src="https://lh3.googleusercontent.com/-p3CU-8ilvxY/T6VX0-t2qKI/AAAAAAAAA0A/AECDo1xT6EA/s48/linkedin48.png" width=48 height=48  /></a>
+               <a href="https://github.com/laura-chavez-serrano" target="_blank"><img alt="follow me in GitHub" src="github.png" width=48 height=48  /></a> -->
+               
+            </div>
+              
+          </footer>
+          <script src="blog/js/jquery.js"></script>
+          <script src="blog/js/bootstrap.min.js"></script>
     </body>
-   <footer> 
-     <div class= "footer">
-        <a href="https://www.linkedin.com/in/laura-chavez-serrano/" target="_blank"><img alt="follow me in Linkedin" src="https://lh3.googleusercontent.com/-p3CU-8ilvxY/T6VX0-t2qKI/AAAAAAAAA0A/AECDo1xT6EA/s48/linkedin48.png" width=48 height=48  /></a>
-        <a href="http://www.facebook.com/laura_mexico@hotmail.com" target="_blank"><img alt="Siguenos en Facebook" src="https://lh3.googleusercontent.com/-NSLbC_ztNls/T6VX0g6z8AI/AAAAAAAAA0A/_vyIBrmZbuY/s48/facebook48.png" width=48 height=48  /></a>
-      
-     </div>
-       
-   </footer>
+   
 
 </html>
 

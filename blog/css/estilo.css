@@ -1,21 +1,12 @@
-html {
-    font-family: Helvetica, Arial, sans-serif;
-    background-color: #ed9763;
-  }
-  .header {
-    background: linear-gradient(#6666ff,grey);
-    color: white;
-  border-bottom: 3px;
-  padding-left: 600px;
-    padding-right: 300px;
-    margin-right:300px;
-    margin-left:40px;
-    font-family:dosis,"HelveticaNeue-CondensedBold","trebuchet ms",sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    font-weight: 700;
-  }
 
+  .color1 {
+    background: #122A68;
+    color: white;
+  }
+  .color2 {
+    background: #DFE0E4;
+    color:  #DFE0E4;
+  }
 .menu {
         margin: 0;
         position: absolute;
@@ -32,8 +23,8 @@ html {
     margin:40px 30px 10px 30px;
 }
 .lauraoffice {
-    max-width: 15%;
-    margin-top: 40px;
+    max-width: 30%;
+    margin-top: 10px;
     margin-left:100px;
     margin-bottom: 40px;
 }
